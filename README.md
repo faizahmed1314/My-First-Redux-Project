@@ -1,3 +1,22 @@
+### Manage Redux With React
+# 1. Store
+        => Action
+        => Reducer
+# 2. React Component
+        => Child Component
+        => Child Component
+# 3. React-Redux
+        => Provider Component
+        => Store
+        => App Component
+# 4. If We Need Data
+        => mapStateToProps(state) return object
+# 5. If We Want To Dispatch Some Action
+        => mapDispatchToProps(state) return object       
+# 6. Connect Component
+        => connect(mapStateToProps, mapDispatchToProps)
+        
+        
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
