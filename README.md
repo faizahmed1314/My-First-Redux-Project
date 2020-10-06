@@ -14,7 +14,7 @@
 # 5. If We Want To Dispatch Some Action
         => mapDispatchToProps(state) return object       
 # 6. Connect Component
-        => connect(mapStateToProps, mapDispatchToProps)
+        => connect(mapStateToProps, mapDispatchToProps)(yourComponent)
         
         
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
